@@ -1,0 +1,54 @@
+h1 {
+    color: rgba(236, 26, 26, 0.563);
+    text-align: center;
+}
+
+button {
+    color: blue;
+    text-align: center;
+}
+
+
+body {
+    background-color: rgba(0, 166, 255, 0.226);
+}
+
+
+.a {
+    text-align: left;
+    color: rgb(0, 0, 0);
+}
+
+
+@keyframes color-change{
+    0%{
+        color: blue;
+    }
+
+    50%{
+        color: aqua;
+    }
+
+    100%{
+        color: orange;
+    }
+}
+
+
+@keyframes color-change2{
+    0%{
+        background-color: rgba(0, 94, 255, 0.427);
+    }
+
+    50%{
+        background-color: rgba(0, 85, 255, 0.701);
+    }
+
+    100%{
+        background-color: rgba(0, 115, 255, 0.704);
+    }
+}
+
+body{
+    animation: color-change2 5s infinite;
+}
